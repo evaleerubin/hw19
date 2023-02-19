@@ -1,5 +1,5 @@
 #preloader{
-  background: #D34F73 url(/IMAGES/giphy\ \(9\).gif) no-repeat center;
+  background: white url(/IMAGES/giphy\ \(9\).gif) no-repeat center;
   background-size: 30%;
   height: 100vh;
   width: 100%;
@@ -30,6 +30,11 @@ header li {
   display: inline-block;
   padding: 0px 5px;
 }
+h1 {
+  background-color: #DBBEA1;
+  margin: auto;
+  text-align: center;
+}
 header p {
   display: inline-block;
 }
@@ -47,9 +52,7 @@ header p {
 button {
   padding: 15px;
   background-color: #D34F73;
-  color: white;
-  font-size: 15px;
-  border-radius: 4px;
+  color: white
 }
 .flexContainer {
   display: flex;
@@ -70,6 +73,11 @@ button {
   display: grid;
   justify-content: space-evenly;
   background-color: #DBBEA1;
+  text-align: center;
+}
+h3{
+  background-color: #DBBEA1;
+  margin: auto;
   text-align: center;
 }
 footer {
