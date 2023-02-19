@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homework 17 Solved</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <script src="js/index.js"></script>
+  </head>
+  <body>
+    <div id="preloader"></div>
+    <header>
+      <img src="IMAGES/Group 3.png">
+      <ul>
+        <li>ABOUT</li>
+        <li>SKILLS</li>
+        <li>WORK</li>
+        <li>CONTACT</li>
+      </ul>
+    </header>
+    <section class="heroImg">
+      <div class="content">
+        <img src="/IMAGES/Ellipse 3.png">
+        <h1>Evalee Anderton</h1>
+        <p>Hello there! My name is Evalee anderton. I was born and raised in Salt Lake City, Utah. I'm a jr. ux/ui designer. I love collaboratingand problem solving. My favorite things to do include being outside and being active.</p>
+        <button>Download Resume</button>
+      </div>
+    </section>
+    <!--  My UX Skills section coded using CSS flex -->
+    <section class="mySkills">
+        <h1>My UX Skills</h1>
+        <div class="flexContainer">
+            <div>
+                <img src="/IMAGES/Monitor (1).png">
+                <h3>User Reserch and Testing</h3>
+                <p>Gathers research to uncover user behaviors as well as test and ideate protoypes to make products more user enjoyable. </p>
+            </div>
+            <div> 
+                <img src="/IMAGES/People.png">
+                <h3>Communication Skills</h3>
+                <p>Able to work collaboratively in a team and communicate ideas effectively.</p>
+            </div>
+            <div> 
+                <img src="/IMAGES/Analyze.png">
+                <h3>Prototyping</h3>
+                <p>Creating prototypes to test the user experience and usability of product. </p>
+            </div>
+        </div>
+    </section>
+    <!-- My Work Section Constructed using CSS Grid -->
+    <section class="myWork">
+        <h1>My Work</h1>
+        <div class="workGrid">
+          <div>
+            <img src="/IMAGES/Frame 7.png">
+          </div>
+          <div>
+            <h4>PIK ME</h4>
+            <p>Our app will allow users to make decisions through entertaining, funny, and creative methods.</p>
+            <button> View Project </button>
+          </div>
+          <div>
+            <img src="/IMAGES/Frame 5.png">
+          </div>
+          <div>
+            <h4>Christmas Box</h4>
+            <p>Our second group project, we been worked on a responsive web design (RWD) user interface (UI) case study for our group non-profit design challenge. In the challenge we were asked to get in contact with a non-profit organization to understand how we could redesign their website to their target audience.</p>
+            <button> View Project </button>
+          </div>
+          <div>
+            <img src="/IMAGES/Frame 8.png">
+          </div>
+          <div>
+            <h4>RODE</h4>
+            <p>This was the first design challenge in the course. Imagine you’ve just been hired as a product designer for a new travel startup. The startup’s goal is to build a modern-day mobile app that helps people plan their next trip, post-pandemic.</p>
+            <button> View Project </button>
+          </div>
+          <h3> View All Projects </h3>
+            </div>
+        </div>
+    </section>
+    <footer>
+      <ul>
+        <li>ABOUT</li>
+        <li>SKILLS</li>
+        <li>WORK</li>
+        <li>CONTACT</li>
+      </ul>
+    </footer>
+
+<script>
+  var loader = document.getElementById("preloader");
+  window.addEventListener ("load", function () {
+    loader.style.display = "none";
+  })
+</script>
+<script>
+setTimeout(function(){        
+    $('#preloader').fadeOut();
+    $('.preloader_img').delay(150).fadeOut('slow'); 
+}, 10000);
+</script>
+  </body>
+   <!--Added extra code to make my preloader longer -->
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/92lY8OTy8Bc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
